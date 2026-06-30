@@ -10,7 +10,7 @@ import {
 } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import * as ExpoLinking from 'expo-linking';
-import { Flame, Loader2 } from 'lucide-react-native';
+import { Coffee, Flame, Loader2 } from 'lucide-react-native';
 import AchievementCard from '@/components/AchievementCard';
 import Confetti from '@/components/Confetti';
 import { getLatestAchievements, Achievement } from '@/services/mockData';
@@ -80,8 +80,8 @@ export default function CoronacionesScreen() {
           <Text style={styles.headerSubtitle}>Another Coronación de Gloria</Text>
         </View>
         <TouchableOpacity style={styles.cafecitoButton} onPress={handleCafecito} activeOpacity={0.8}>
-          <Flame size={16} color={COLORS.gold} />
-          <Text style={styles.cafecitoText}>Invitame un chori</Text>
+          <Coffee size={16} color={COLORS.gold} />
+          <Text style={styles.cafecitoText}>Invitame un cafesito</Text>
         </TouchableOpacity>
       </View>
 
